@@ -6,7 +6,7 @@ Description
 WriteUp
 Find the type of file
 
-root@kali:~/polictf/forensic/john-in-the-middle/new_way# file john-in-the-middle.pcap 
+<strong>root@kali:~/polictf/forensic/john-in-the-middle/new_way# file john-in-the-middle.pcap </strong> 
 
 
 john-in-the-middle.pcap: tcpdump capture file (little-endian) - version 2.4 (Ethernet, capture length 262144)
