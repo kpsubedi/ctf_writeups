@@ -12,7 +12,7 @@ Find the type of file
 john-in-the-middle.pcap: tcpdump capture file (little-endian) - version 2.4 (Ethernet, capture length 262144)
 
 
-root@kali:~/polictf/forensic/john-in-the-middle/new_way/output# foremost -h
+<strong>root@kali:~/polictf/forensic/john-in-the-middle/new_way/output# foremost -h </strong>
 
 
 foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus.
@@ -31,7 +31,7 @@ $ foremost [-v|-V|-h|-T|-Q|-q|-a|-w-d] [-t <type>] [-s <blocks>] [-k <size>]
 -Q  - enables quiet mode. Suppress output messages. 
 -v  - verbose mode. Logs all messages to screen
 
-root@kali:~/polictf/forensic/john-in-the-middle/new_way# foremost john-in-the-middle.pcap 
+<strong>root@kali:~/polictf/forensic/john-in-the-middle/new_way# foremost john-in-the-middle.pcap </strong>
 
 Processing: john-in-the-middle.pcap
 |*|
@@ -42,11 +42,11 @@ john-in-the-middle.pcap  output
 
 root@kali:~/polictf/forensic/john-in-the-middle/new_way# tree .
 
-.
-├── john-in-the-middle.pcap
-└── output
-    ├── audit.txt
-    └── png
+*.
+**├── john-in-the-middle.pcap
+**└── output
+    **├── audit.txt
+    *└── png
         ├── 00000308.png
         ├── 00000403.png
         ├── 00000644.png
@@ -60,13 +60,13 @@ root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# ls
 
 
 
-root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# convert 00000308.png -edge 10 00000308_new.png 
+<strong>root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# convert 00000308.png -edge 10 00000308_new.png </strong>
 
 
 Flag:
-root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# eog 00000308_new.png
+<strong>root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# eog 00000308_new.png </strong>
 
-flag{J0hn_th3_Sn1ff3r}
+<strong>flag{J0hn_th3_Sn1ff3r}</strong>
 
 
 
