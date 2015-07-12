@@ -66,7 +66,7 @@ root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# convert 0000
 Flag:
 root@kali:~/polictf/forensic/john-in-the-middle/new_way/output/png# eog 00000308_new.png
 
-
+flag{J0hn_th3_Sn1ff3r}
 
 
 
